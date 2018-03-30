@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guillaume/dev/c++/Minecraft/src/Core.cpp
+Core.hh
+/home/guillaume/dev/c++/Minecraft/src/Core.hh
+
+/home/guillaume/dev/c++/Minecraft/src/main.cpp
+Core.hh
+/home/guillaume/dev/c++/Minecraft/src/Core.hh
+
+include/Core.hh
+irrlicht.h
+-
+

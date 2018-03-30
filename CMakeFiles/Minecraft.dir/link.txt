@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/Minecraft.dir/src/main.cpp.o CMakeFiles/Minecraft.dir/src/Core.cpp.o  -o Minecraft -lIrrlicht -lGL -lXxf86vm -lXext -lX11 -lpthread -lXcursor 
