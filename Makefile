@@ -150,6 +150,87 @@ src/Core.cpp.s:
 	$(MAKE) -f CMakeFiles/Minecraft.dir/build.make CMakeFiles/Minecraft.dir/src/Core.cpp.s
 .PHONY : src/Core.cpp.s
 
+src/Cube.o: src/Cube.cpp.o
+
+.PHONY : src/Cube.o
+
+# target to build an object file
+src/Cube.cpp.o:
+	$(MAKE) -f CMakeFiles/Minecraft.dir/build.make CMakeFiles/Minecraft.dir/src/Cube.cpp.o
+.PHONY : src/Cube.cpp.o
+
+src/Cube.i: src/Cube.cpp.i
+
+.PHONY : src/Cube.i
+
+# target to preprocess a source file
+src/Cube.cpp.i:
+	$(MAKE) -f CMakeFiles/Minecraft.dir/build.make CMakeFiles/Minecraft.dir/src/Cube.cpp.i
+.PHONY : src/Cube.cpp.i
+
+src/Cube.s: src/Cube.cpp.s
+
+.PHONY : src/Cube.s
+
+# target to generate assembly for a file
+src/Cube.cpp.s:
+	$(MAKE) -f CMakeFiles/Minecraft.dir/build.make CMakeFiles/Minecraft.dir/src/Cube.cpp.s
+.PHONY : src/Cube.cpp.s
+
+src/Keyboard.o: src/Keyboard.cpp.o
+
+.PHONY : src/Keyboard.o
+
+# target to build an object file
+src/Keyboard.cpp.o:
+	$(MAKE) -f CMakeFiles/Minecraft.dir/build.make CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o
+.PHONY : src/Keyboard.cpp.o
+
+src/Keyboard.i: src/Keyboard.cpp.i
+
+.PHONY : src/Keyboard.i
+
+# target to preprocess a source file
+src/Keyboard.cpp.i:
+	$(MAKE) -f CMakeFiles/Minecraft.dir/build.make CMakeFiles/Minecraft.dir/src/Keyboard.cpp.i
+.PHONY : src/Keyboard.cpp.i
+
+src/Keyboard.s: src/Keyboard.cpp.s
+
+.PHONY : src/Keyboard.s
+
+# target to generate assembly for a file
+src/Keyboard.cpp.s:
+	$(MAKE) -f CMakeFiles/Minecraft.dir/build.make CMakeFiles/Minecraft.dir/src/Keyboard.cpp.s
+.PHONY : src/Keyboard.cpp.s
+
+src/Map.o: src/Map.cpp.o
+
+.PHONY : src/Map.o
+
+# target to build an object file
+src/Map.cpp.o:
+	$(MAKE) -f CMakeFiles/Minecraft.dir/build.make CMakeFiles/Minecraft.dir/src/Map.cpp.o
+.PHONY : src/Map.cpp.o
+
+src/Map.i: src/Map.cpp.i
+
+.PHONY : src/Map.i
+
+# target to preprocess a source file
+src/Map.cpp.i:
+	$(MAKE) -f CMakeFiles/Minecraft.dir/build.make CMakeFiles/Minecraft.dir/src/Map.cpp.i
+.PHONY : src/Map.cpp.i
+
+src/Map.s: src/Map.cpp.s
+
+.PHONY : src/Map.s
+
+# target to generate assembly for a file
+src/Map.cpp.s:
+	$(MAKE) -f CMakeFiles/Minecraft.dir/build.make CMakeFiles/Minecraft.dir/src/Map.cpp.s
+.PHONY : src/Map.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -189,6 +270,15 @@ help:
 	@echo "... src/Core.o"
 	@echo "... src/Core.i"
 	@echo "... src/Core.s"
+	@echo "... src/Cube.o"
+	@echo "... src/Cube.i"
+	@echo "... src/Cube.s"
+	@echo "... src/Keyboard.o"
+	@echo "... src/Keyboard.i"
+	@echo "... src/Keyboard.s"
+	@echo "... src/Map.o"
+	@echo "... src/Map.i"
+	@echo "... src/Map.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

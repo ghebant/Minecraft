@@ -105,19 +105,97 @@ CMakeFiles/Minecraft.dir/src/Core.cpp.o.provides: CMakeFiles/Minecraft.dir/src/C
 CMakeFiles/Minecraft.dir/src/Core.cpp.o.provides.build: CMakeFiles/Minecraft.dir/src/Core.cpp.o
 
 
+CMakeFiles/Minecraft.dir/src/Cube.cpp.o: CMakeFiles/Minecraft.dir/flags.make
+CMakeFiles/Minecraft.dir/src/Cube.cpp.o: src/Cube.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guillaume/dev/c++/Minecraft/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Minecraft.dir/src/Cube.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Minecraft.dir/src/Cube.cpp.o -c /home/guillaume/dev/c++/Minecraft/src/Cube.cpp
+
+CMakeFiles/Minecraft.dir/src/Cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Minecraft.dir/src/Cube.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guillaume/dev/c++/Minecraft/src/Cube.cpp > CMakeFiles/Minecraft.dir/src/Cube.cpp.i
+
+CMakeFiles/Minecraft.dir/src/Cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Minecraft.dir/src/Cube.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guillaume/dev/c++/Minecraft/src/Cube.cpp -o CMakeFiles/Minecraft.dir/src/Cube.cpp.s
+
+CMakeFiles/Minecraft.dir/src/Cube.cpp.o.requires:
+
+.PHONY : CMakeFiles/Minecraft.dir/src/Cube.cpp.o.requires
+
+CMakeFiles/Minecraft.dir/src/Cube.cpp.o.provides: CMakeFiles/Minecraft.dir/src/Cube.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Minecraft.dir/build.make CMakeFiles/Minecraft.dir/src/Cube.cpp.o.provides.build
+.PHONY : CMakeFiles/Minecraft.dir/src/Cube.cpp.o.provides
+
+CMakeFiles/Minecraft.dir/src/Cube.cpp.o.provides.build: CMakeFiles/Minecraft.dir/src/Cube.cpp.o
+
+
+CMakeFiles/Minecraft.dir/src/Map.cpp.o: CMakeFiles/Minecraft.dir/flags.make
+CMakeFiles/Minecraft.dir/src/Map.cpp.o: src/Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guillaume/dev/c++/Minecraft/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Minecraft.dir/src/Map.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Minecraft.dir/src/Map.cpp.o -c /home/guillaume/dev/c++/Minecraft/src/Map.cpp
+
+CMakeFiles/Minecraft.dir/src/Map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Minecraft.dir/src/Map.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guillaume/dev/c++/Minecraft/src/Map.cpp > CMakeFiles/Minecraft.dir/src/Map.cpp.i
+
+CMakeFiles/Minecraft.dir/src/Map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Minecraft.dir/src/Map.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guillaume/dev/c++/Minecraft/src/Map.cpp -o CMakeFiles/Minecraft.dir/src/Map.cpp.s
+
+CMakeFiles/Minecraft.dir/src/Map.cpp.o.requires:
+
+.PHONY : CMakeFiles/Minecraft.dir/src/Map.cpp.o.requires
+
+CMakeFiles/Minecraft.dir/src/Map.cpp.o.provides: CMakeFiles/Minecraft.dir/src/Map.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Minecraft.dir/build.make CMakeFiles/Minecraft.dir/src/Map.cpp.o.provides.build
+.PHONY : CMakeFiles/Minecraft.dir/src/Map.cpp.o.provides
+
+CMakeFiles/Minecraft.dir/src/Map.cpp.o.provides.build: CMakeFiles/Minecraft.dir/src/Map.cpp.o
+
+
+CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o: CMakeFiles/Minecraft.dir/flags.make
+CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o: src/Keyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guillaume/dev/c++/Minecraft/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o -c /home/guillaume/dev/c++/Minecraft/src/Keyboard.cpp
+
+CMakeFiles/Minecraft.dir/src/Keyboard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Minecraft.dir/src/Keyboard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guillaume/dev/c++/Minecraft/src/Keyboard.cpp > CMakeFiles/Minecraft.dir/src/Keyboard.cpp.i
+
+CMakeFiles/Minecraft.dir/src/Keyboard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Minecraft.dir/src/Keyboard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guillaume/dev/c++/Minecraft/src/Keyboard.cpp -o CMakeFiles/Minecraft.dir/src/Keyboard.cpp.s
+
+CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o.requires:
+
+.PHONY : CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o.requires
+
+CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o.provides: CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Minecraft.dir/build.make CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o.provides.build
+.PHONY : CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o.provides
+
+CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o.provides.build: CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o
+
+
 # Object files for target Minecraft
 Minecraft_OBJECTS = \
 "CMakeFiles/Minecraft.dir/src/main.cpp.o" \
-"CMakeFiles/Minecraft.dir/src/Core.cpp.o"
+"CMakeFiles/Minecraft.dir/src/Core.cpp.o" \
+"CMakeFiles/Minecraft.dir/src/Cube.cpp.o" \
+"CMakeFiles/Minecraft.dir/src/Map.cpp.o" \
+"CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o"
 
 # External object files for target Minecraft
 Minecraft_EXTERNAL_OBJECTS =
 
 Minecraft: CMakeFiles/Minecraft.dir/src/main.cpp.o
 Minecraft: CMakeFiles/Minecraft.dir/src/Core.cpp.o
+Minecraft: CMakeFiles/Minecraft.dir/src/Cube.cpp.o
+Minecraft: CMakeFiles/Minecraft.dir/src/Map.cpp.o
+Minecraft: CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o
 Minecraft: CMakeFiles/Minecraft.dir/build.make
 Minecraft: CMakeFiles/Minecraft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guillaume/dev/c++/Minecraft/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Minecraft"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guillaume/dev/c++/Minecraft/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Minecraft"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Minecraft.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +205,9 @@ CMakeFiles/Minecraft.dir/build: Minecraft
 
 CMakeFiles/Minecraft.dir/requires: CMakeFiles/Minecraft.dir/src/main.cpp.o.requires
 CMakeFiles/Minecraft.dir/requires: CMakeFiles/Minecraft.dir/src/Core.cpp.o.requires
+CMakeFiles/Minecraft.dir/requires: CMakeFiles/Minecraft.dir/src/Cube.cpp.o.requires
+CMakeFiles/Minecraft.dir/requires: CMakeFiles/Minecraft.dir/src/Map.cpp.o.requires
+CMakeFiles/Minecraft.dir/requires: CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o.requires
 
 .PHONY : CMakeFiles/Minecraft.dir/requires
 

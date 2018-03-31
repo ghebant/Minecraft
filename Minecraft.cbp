@@ -87,6 +87,15 @@
 		<Unit filename="/home/guillaume/dev/c++/Minecraft/src/Core.cpp">
 			<Option target="Minecraft"/>
 		</Unit>
+		<Unit filename="/home/guillaume/dev/c++/Minecraft/src/Cube.cpp">
+			<Option target="Minecraft"/>
+		</Unit>
+		<Unit filename="/home/guillaume/dev/c++/Minecraft/src/Keyboard.cpp">
+			<Option target="Minecraft"/>
+		</Unit>
+		<Unit filename="/home/guillaume/dev/c++/Minecraft/src/Map.cpp">
+			<Option target="Minecraft"/>
+		</Unit>
 		<Unit filename="/home/guillaume/dev/c++/Minecraft/src/main.cpp">
 			<Option target="Minecraft"/>
 		</Unit>

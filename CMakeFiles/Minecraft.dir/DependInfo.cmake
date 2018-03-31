@@ -5,6 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/guillaume/dev/c++/Minecraft/src/Core.cpp" "/home/guillaume/dev/c++/Minecraft/CMakeFiles/Minecraft.dir/src/Core.cpp.o"
+  "/home/guillaume/dev/c++/Minecraft/src/Cube.cpp" "/home/guillaume/dev/c++/Minecraft/CMakeFiles/Minecraft.dir/src/Cube.cpp.o"
+  "/home/guillaume/dev/c++/Minecraft/src/Keyboard.cpp" "/home/guillaume/dev/c++/Minecraft/CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o"
+  "/home/guillaume/dev/c++/Minecraft/src/Map.cpp" "/home/guillaume/dev/c++/Minecraft/CMakeFiles/Minecraft.dir/src/Map.cpp.o"
   "/home/guillaume/dev/c++/Minecraft/src/main.cpp" "/home/guillaume/dev/c++/Minecraft/CMakeFiles/Minecraft.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

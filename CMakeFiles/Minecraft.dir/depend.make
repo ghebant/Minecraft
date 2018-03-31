@@ -3,7 +3,25 @@
 
 CMakeFiles/Minecraft.dir/src/Core.cpp.o: src/Core.cpp
 CMakeFiles/Minecraft.dir/src/Core.cpp.o: include/Core.hh
+CMakeFiles/Minecraft.dir/src/Core.cpp.o: include/Keyboard.hh
+
+CMakeFiles/Minecraft.dir/src/Cube.cpp.o: src/Cube.cpp
+CMakeFiles/Minecraft.dir/src/Cube.cpp.o: include/Core.hh
+CMakeFiles/Minecraft.dir/src/Cube.cpp.o: include/Cube.hh
+CMakeFiles/Minecraft.dir/src/Cube.cpp.o: include/Keyboard.hh
+
+CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o: src/Keyboard.cpp
+CMakeFiles/Minecraft.dir/src/Keyboard.cpp.o: include/Keyboard.hh
+
+CMakeFiles/Minecraft.dir/src/Map.cpp.o: src/Map.cpp
+CMakeFiles/Minecraft.dir/src/Map.cpp.o: include/Core.hh
+CMakeFiles/Minecraft.dir/src/Map.cpp.o: include/Cube.hh
+CMakeFiles/Minecraft.dir/src/Map.cpp.o: include/Keyboard.hh
+CMakeFiles/Minecraft.dir/src/Map.cpp.o: include/Map.hh
 
 CMakeFiles/Minecraft.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/Minecraft.dir/src/main.cpp.o: include/Core.hh
+CMakeFiles/Minecraft.dir/src/main.cpp.o: include/Cube.hh
+CMakeFiles/Minecraft.dir/src/main.cpp.o: include/Keyboard.hh
+CMakeFiles/Minecraft.dir/src/main.cpp.o: include/Map.hh
 

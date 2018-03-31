@@ -13,15 +13,32 @@ Core::Core()
             false,
             true,
             false,
-            0);
+            &this->keyboard);
     this->_driver = this->_device->getVideoDriver();
     this->_sceneManager = this->_device->getSceneManager();
+    this->getDevice()->getCursorControl()->setVisible(false);
 }
 
 void Core::Draw()
 {
     this->_driver->beginScene(true, true, irr::video::SColor(0,51,204,204));
     this->_sceneManager->drawAll();
+}
+
+void Core::displayFPS(int &lastFPS) {
+
+    int fps = this->getDriver()->getFPS();
+
+    if (lastFPS != fps)
+    {
+        irr::core::stringw tmp(L"Minecraft [");
+        tmp += this->getDriver()->getName();
+        tmp += L"] fps: ";
+        tmp += fps;
+
+        this->getDevice()->setWindowCaption(tmp.c_str());
+        lastFPS = fps;
+    }
 }
 
 void Core::drawCube()
@@ -61,4 +78,9 @@ irr::video::IVideoDriver        *Core::getDriver()
 irr::scene::ISceneManager       *Core::getSceneManager()
 {
     return (this->_sceneManager);
+}
+
+Keyboard                        Core::getKeyboard()
+{
+    return (this->keyboard);
 }
